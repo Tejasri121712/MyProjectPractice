@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T20:27:06 EDT" name="Suite" finished-at="2024-09-25T20:29:44 EDT" duration-ms="158772">
+  <suite started-at="2024-09-27T21:57:29 EDT" name="Suite" finished-at="2024-09-27T21:59:47 EDT" duration-ms="137823">
     <groups>
     </groups>
-    <test started-at="2024-09-25T20:27:06 EDT" name="Test" finished-at="2024-09-25T20:29:44 EDT" duration-ms="158772">
+    <test started-at="2024-09-27T21:57:29 EDT" name="Test" finished-at="2024-09-27T21:59:47 EDT" duration-ms="137823">
       <class name="com.testscenarios.AT_Register">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_Register@196a42c3]" started-at="2024-09-25T20:27:51 EDT" name="f" finished-at="2024-09-25T20:28:45 EDT" duration-ms="54009" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_Register@196a42c3]" started-at="2024-09-27T21:58:10 EDT" name="f" finished-at="2024-09-27T21:58:54 EDT" duration-ms="44033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.testscenarios.AT_Register -->
       <class name="com.testscenarios.AT_Login">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_Login@74d1dc36]" started-at="2024-09-25T20:27:06 EDT" name="f" finished-at="2024-09-25T20:27:50 EDT" duration-ms="44781" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_Login@74d1dc36]" started-at="2024-09-27T21:57:29 EDT" name="f" finished-at="2024-09-27T21:58:10 EDT" duration-ms="40242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.testscenarios.AT_Login -->
       <class name="com.testscenarios.AT_LOP">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_LOP@4c60d6e9]" started-at="2024-09-25T20:28:45 EDT" name="f" finished-at="2024-09-25T20:29:44 EDT" duration-ms="59871" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.AT_LOP@4c60d6e9]" started-at="2024-09-27T21:58:54 EDT" name="f" finished-at="2024-09-27T21:59:47 EDT" duration-ms="53467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
