@@ -25,9 +25,10 @@ public class AT_Login {
 
 	public void f() throws IOException {
 		WebDriver driver;
-		
+		///Users/tejasrigudavalli/eclipse-workspace/Frameworksample
+
 		Properties prop = new Properties();
-		FileInputStream file = new FileInputStream("/Users/tejasrigudavalli/eclipse-workspace/Frameworksample/src/test/resources/testdata/QA_td.properties");
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/testdata/QA_td.properties");
 		prop.load(file);
 		
 		driver = new ChromeDriver();
@@ -39,7 +40,7 @@ public class AT_Login {
 		
 		//Take Screenshot
 		File abc = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(abc, new File("/Users/tejasrigudavalli/eclipse-workspace/Frameworksample/screenshots/atlogin.png"));
+		FileHandler.copy(abc, new File(System.getProperty("user.dir")+"/screenshots/atlogin.png"));
 		
 
 	}

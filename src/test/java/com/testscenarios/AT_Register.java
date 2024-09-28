@@ -13,12 +13,13 @@ public class AT_Register {
 
 	@Test
 
-	public void f() throws IOException {
+	public void f() throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver;
 		driver = new ChromeDriver();
 		driver.get("https://practice.automationtesting.in/");
+		Thread.sleep(5000);
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.xpath("//*[@id=\"reg_email\"]")).sendKeys("gtejasri1217@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"reg_password\"]")).sendKeys("Oswald@1217");
