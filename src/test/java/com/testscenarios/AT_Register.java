@@ -1,14 +1,19 @@
 package com.testscenarios;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByName;
 import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class AT_Register {
 
-	public static void main(String[] args) {
+	@Test
+
+	public void f() throws IOException {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver;
